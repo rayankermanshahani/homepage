@@ -22,7 +22,7 @@ body {
 p, li {
     margin-top: 0;
     margin-bottom: 20px;
-    font-family: monospace, 'Times New Roman', Times, serif ;
+    font-family: monospace;
     line-height: 16px;
 }
 
@@ -39,7 +39,7 @@ div#contents {
 }
 
 hr {
-  width: 25vw;
+  width: 25vw !important;
 }
 
 a {
@@ -50,5 +50,4 @@ a {
 a:hover {
     text-decoration: underline; 
     color: blueviolet; 
-
 }
