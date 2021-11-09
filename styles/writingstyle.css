@@ -1,0 +1,13 @@
+html, body {
+  margin: 3vh 6vw; 
+}
+
+a {
+  color: #4178db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet; 
+  text-decoration: underline;
+}
