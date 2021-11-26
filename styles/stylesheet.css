@@ -22,12 +22,11 @@ body {
 p, li {
     margin-top: 0;
     margin-bottom: 20px;
-    font-family: monospace;
     line-height: 16px;
 }
 
-div#contents {
-    z-index: 1000;
+#contents {
+    z-index: 1000; 
     position: absolute;
     width: 100%;
     height: 100%;
@@ -36,10 +35,11 @@ div#contents {
     padding: 40px;
     box-sizing: border-box;
     text-align: center;
-}
+    font-family: monospace;
+} 
 
 hr {
-  width: 25vw !important;
+    max-width: 333px;
 }
 
 a {

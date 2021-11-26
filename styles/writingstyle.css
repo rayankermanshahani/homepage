@@ -1,13 +1,58 @@
-html, body {
-  margin: 3vh 6vw; 
+#contents {
+    max-width: 750px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+    text-justify: center;
+    font-family: monospace;
+}
+
+#back-link {
+    font-size: 18px;
+}
+
+#title {
+    font-size: 22px; 
+    font-weight: bold; 
+}
+
+#date {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+p, li {
+    line-height: 20px;
+    font-size: 16px;
+    text-justify: center; 
+}
+
+hr {
+  /* width: 75vw;*/
 }
 
 a {
-  color: #4178db;
-  text-decoration: none;
+    text-decoration: none;
+    color: blue;
 }
 
 a:hover {
-  color: blueviolet; 
-  text-decoration: underline;
+    text-decoration: underline; 
+    color: blueviolet; 
 }
+
+/* phone viewport */
+@media (min-width: 375px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+/* non-phone viewport */
+@media (min-width: 415px) {
+    p {
+        font-size: 16px;
+    }
+}
+
