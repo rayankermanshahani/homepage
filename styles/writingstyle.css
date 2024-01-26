@@ -56,3 +56,9 @@ a:hover {
     }
 }
 
+#responsive-image {
+    max-width: 750px;
+    max-height: 750px;
+    width: 100%;
+    height: auto;
+}
